@@ -1,0 +1,23 @@
+{
+    "name": "monsido/silverstripe-monsido",
+    "description": "A SilverStripe extension that integrates Monsido into the CMS",
+    "type": "silverstripe-module",
+    "keywords": [
+        "silverstripe",
+        "monsido"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Henrik Olsen",
+            "email": "henrik@mouseketeers.dk"
+        }
+    ],
+    "require": {
+        "silverstripe/cms": "^3",
+        "silverstripe/framework": "^3"
+    },
+    "extra": {
+        "installer-name": "monsido"
+    }
+}
