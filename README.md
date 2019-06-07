@@ -14,5 +14,3 @@ A SilverStripe extension that integrates Monsido into the CMS
 ```
 composer require monsido/silverstripe-monsido ^1.0
 ```
-
-## Usage
