@@ -6,13 +6,18 @@ A SilverStripe extension that integrates Monsido into the CMS
 
 ## Requirements
 
- * SilverStripe 3.0 or newer
+ * SilverStripe 4.0 or newer
 
 
 ## Installation
 
 ```
-composer require monsido/silverstripe-monsido ^1.0
+composer require monsido/silverstripe-monsido ^2.0
 ```
 
-## Usage
+
+For a SilverStripe 3.x compatible version use
+
+```
+composer require monsido/silverstripe-monsido ^1.0
+```
