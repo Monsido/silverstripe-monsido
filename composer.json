@@ -1,7 +1,7 @@
 {
     "name": "monsido/silverstripe-monsido",
     "description": "A SilverStripe extension that integrates Monsido into the CMS",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
         "monsido"
@@ -14,9 +14,14 @@
         }
     ],
     "require": {
-        "silverstripe/cms": "^3",
-        "silverstripe/framework": "^3"
+        "silverstripe/cms": "^4",
+        "silverstripe/framework": "^4"
     },
+    "autoload": {
+        "psr-4": {
+            "monsido\\silverstripe-monsido\\": "code/"
+        }
+  },
     "extra": {
         "installer-name": "monsido"
     }
