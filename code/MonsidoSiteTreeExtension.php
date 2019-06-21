@@ -1,7 +1,7 @@
 <?php
 class MonsidoSiteTreeExtension extends extension {
 	public function updateCMSFields(FieldList $fields) {
-		$siteURL = ($this->owner->URLSegment != 'home') ? Director::absoluteURL(rtrim($this->owner->Link()'/')) : Director::absoluteBaseURL();
+		$siteURL = ($this->owner->URLSegment != 'home') ? Director::absoluteURL(rtrim($this->owner->Link(), '/')) : Director::absoluteBaseURL();
 		$fields->push(new LiteralField('MonsidoURLComment', "<!-- Monsido: public_urls['".$siteURL."'] --><script>window.postMessage({ type: 'monsidoExtension', fn: 'forceRefresh' });</script>"));
 	}
 }
