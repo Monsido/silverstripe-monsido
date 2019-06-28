@@ -13,4 +13,9 @@ A SilverStripe extension that integrates Monsido into the CMS
 
 ```
 composer require monsido/silverstripe-monsido ^1.0
+
 ```
+
+Run /dev/build?flush=all
+
+Be sure to use [$MetaTags](https://docs.silverstripe.org/en/3/developer_guides/templates/common_variables/#meta-tags) in your templates.
